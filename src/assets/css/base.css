@@ -1,0 +1,64 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: #2c3e50;
+  
+  
+}
+
+body{
+	background-color: #f9f9f9;
+	
+}
+.el-header{
+	background-color: white;
+	position: fixed;
+	background-color: #FFFFFF;
+	top: 0;
+	z-index: 9;
+	
+}
+
+
+.el-header, .el-footer {
+    
+    color: #333;
+    
+    line-height: 60px;
+  }
+  .el-header{
+	  width: 104%;
+  }
+  
+  .el-aside {
+    background-color: #f9f9f9;
+    color: #333;
+   
+	margin-right: 61px;
+	margin-top: 18px;
+  }
+  
+  .el-main {
+    
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+
+
+
+
+
+
